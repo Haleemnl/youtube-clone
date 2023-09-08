@@ -51,7 +51,7 @@ const Header = () => {
                 <VideoCallIcon className='header-icon' />
                 <AppsIcon className='header-icon' />
                 <NotificationsIcon className='header-icon' />
-                <Avatar alt="haleem " src="/images/haleem-logo.jpeg" />
+                <Avatar alt="haleem " src="/images/haleem-logo.webp" />
             </div>
 
 
