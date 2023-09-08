@@ -1,0 +1,68 @@
+.videoCard {
+    max-width: 270px;
+    margin-bottom: 40px;
+    position: relative;
+
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.playbtn {
+    position: absolute;
+    top: 60px;
+    right: 128px;
+    font-size: 32px !important;
+    color: white !important;
+
+}
+
+.playtext {
+    position: absolute;
+    top: 90px;
+    right: 130px;
+    color: white;
+    font-weight: 500;
+}
+
+.videoCard-thumbnail {
+    height: 140px;
+    width: 250px;
+
+    /* width: 100%;
+    object-fit: contain; */
+
+}
+
+.videoCard-info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoCard-text {
+    margin-left: 15px;
+}
+
+.videoCard-text>h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+
+
+}
+
+.videoCard-text>p {
+    font-size: 14px;
+    color: grey;
+}
+
+.video-avatar {
+    height: 30px !important;
+    width: 30px !important;
+}

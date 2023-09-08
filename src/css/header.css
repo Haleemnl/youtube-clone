@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+
+.header-logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    /* border: 1px solid lightgray; */
+    /* border: 1px solid red; */
+}
+
+.header-inputbutton {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+
+}
+
+.header-input>input {
+    flex: 1;
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    margin-right: 5px;
+}
+
+/* media for header */
+
+@media screen and (max-width:750px) {
+
+    .header-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo {
+        height: 19px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+    .header-icons {
+        margin-left: 40px;
+    }
+
+    .header-icon {
+        font-size: 20px !important;
+
+    }
+
+
+}
