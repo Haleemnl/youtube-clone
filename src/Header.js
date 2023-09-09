@@ -22,7 +22,7 @@ const Header = () => {
                 <MenuIcon />
 
                 <Link to={'/'}> <img className='header-logo'
-                    src="/images/youtube-logo.jpeg" alt="" />
+                    src="/images/youtube-logo.webp" alt="" />
                 </Link>
 
 
@@ -51,7 +51,7 @@ const Header = () => {
                 <VideoCallIcon className='header-icon' />
                 <AppsIcon className='header-icon' />
                 <NotificationsIcon className='header-icon' />
-                <Avatar alt="haleem " src="/images/haleem-logo.webp" />
+                <Avatar alt="haleem " className='header-avatar' src="/images/haleem-logo.webp" />
             </div>
 
 

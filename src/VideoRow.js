@@ -5,7 +5,6 @@ const VideoRow = ({ views, subs, description, timestamp, channel, title, image }
     return (
         <div className='videoRow'>
             <img src={image} alt="" />
-
             <div className="videoRow-text">
                 <h3>{title}</h3>
 
