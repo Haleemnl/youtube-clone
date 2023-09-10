@@ -10,7 +10,22 @@ const VideoCard = ({ image, title, channel, views, timestamps, channelImage, lin
         <div className='videoCard'>
 
 
-            <img className='videoCard-thumbnail' src={image} alt="" />
+            {/* <img className='videoCard-thumbnail' src={image} alt="" /> */}
+
+            <picture>
+                <source
+                    srcSet="large-image.webp 1024w, medium-image.webp 640w, small-image.webp 320w"
+                    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                    type={image}
+                />
+                <img
+                    className='videoCard-thumbnail'
+                    src={image}
+                    alt="My Image"
+                    loading="lazy" // Enable lazy loading
+                />
+            </picture>
+
 
             <Link to={link}>
                 <div className="play">
